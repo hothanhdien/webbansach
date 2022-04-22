@@ -1,0 +1,227 @@
+.container {
+    width: 1200px;
+    margin: 5px auto;
+    padding: 10px;
+
+
+}
+
+.container>header {
+    padding: 20px;
+}
+
+header {
+    position: relative;
+    height: 50px;
+    background-color: orangered;
+    padding: 10px;
+}
+
+.input {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    
+}
+
+.nut {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+header>.phiatren>.menu {
+    padding: 0px;
+    width: 550px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: underline;
+}
+header>.phiatren>.menu>a{
+    color: white;
+    text-decoration: underline;
+    
+}
+header>.phiatren>.menu :hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+header>.phiatren>.menu>a {
+    padding: 50px;
+    font-variant: small-caps;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(128, 84, 105);
+    font-variant: small-caps;
+    line-height: 50px;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+article {
+    width: 75%;
+    min-height: 400px;
+    background-color: white;
+    float: left;
+}
+
+aside {
+    width: 25%;
+    min-height: 400px;
+    background-color: rgb(237, 214, 214);
+    float: right;
+    text-align: center;
+}
+
+aside>image {
+    width: 200px;
+}
+
+footer {
+    line-height: 50px;
+    clear: both;
+    width: 100%;
+    background-color: lightcyan;
+    border-top: 5px double orangered;
+    padding-top: 0px;
+    height: 150px;
+
+}
+
+footer>div {
+
+    padding: 0px 50px;
+    line-height: 15px;
+}
+
+.container>nav>a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container>nav>a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+h3 {
+    color: red;
+    box-shadow: 0px 0px 5px blue;
+}
+
+.footer1 {
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.footer2 {
+    width: 100%;
+    padding: 10px;
+    border-top: 5px double orangered;
+    height: 60px;
+    float: left;
+    clear: both;
+    background-color: rgb(128, 84, 105);
+}
+.tien{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(143, 175, 154);
+    color: aliceblue;
+}
+.cuoi{
+    float: left;
+    padding: 0 50px;
+}
+h5{
+    padding: 0px;
+    color: cornflowerblue;
+}
+.menu1>ul>li {
+    display: inline-block;
+    position: relative
+}
+
+.menu1>ul>li>a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 30px;
+    line-height: 40px;
+}
+
+.menu1>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu1>ul>li>a:hover {
+    color: yellow;
+}
+
+.menu1 ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: rgb(244, 172, 172);
+    box-shadow: 0px 0px 1px gray;
+
+}
+.thanoi > li > a{
+    display: block;
+
+}
+
+.menu1>ul>li:hover>ul {
+    display: block
+}
+
+.menu1 ul ul a {
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    border-bottom: 1px dotted orangered;
+    padding: 0px;
+}
+
+.menu1 ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+iframe{
+    width: 100%;
+    height: 1200px
+}
+@media all and (max-width: 320px) {
+    .container{
+        width: 30%;
+        margin: 0px auto;
+    }
+}

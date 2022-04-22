@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 350px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px;
+            background-color: aquamarine;
+            margin: 0 auto;
+            padding: 10px;
+            font-variant: small-caps;
+        }
+        #ten{
+            width: 330px;
+            height: 30px;
+        }
+        #gt{
+            width: 330px;
+            height: 30px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        #st{
+            width: 330px;
+            height: 30px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        #nut{
+            background-color: blue;
+            color: white;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div><label for="">Họ và Tên</label> </div>
+        <div ><input id="ten" type="text"> </div>
+        <br>
+        <label for="">Mật khẩu</label> <br>
+        <input  id="ten" type="text"> <br><br>
+        <label for="">Nhập lại mật khẩu</label> <br>
+        <input id="ten" type="text">
+        <br><br>
+        <div id="gt">
+            <label for="">Giới tính</label>
+            <input type="radio" name="gt" id="nam" checked><label for="nam">Nam</label>
+            <input type="radio" name="gt" id="nữ"><label for="nữ">Nữ</label>
+        </div>
+        <br>
+        <div><label for="">Hình ảnh</label></div>
+        <div><input type="file"></div>
+        <br>
+        <div><label for="">Quốc tịch</label></div>
+        <select name="" id="">
+            <option value="">Việt Nam</option>
+            <option value=""> <A></A></option>
+            <option value="">Pháp</option>
+            <option value="">Mỹ</option>
+        </select>
+        <br>
+        <br>
+        <div>Sở thích</div>
+        <div id="st">
+            <input type="checkbox">Nghe nhạc
+            <input type="checkbox">Du lịch
+            <input type="checkbox">Âm nhạc
+            <input type="checkbox">Ẩm thực
+        </div>
+        <br>
+        <div><label for="">Ghi chú</label></div>
+        <div><textarea name="" id="" cols="40" rows="10"></textarea></div>
+        <br>
+        <hr>
+        <br>
+        <center >
+    
+            <input id="nut" type="submit" value="Đăng kí">
+        </center>
+    </div>
+</body>
+
+</html>

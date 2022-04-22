@@ -1,0 +1,72 @@
+.column {
+    width: 24%;
+    float: left;
+    min-width: 150px;
+    height: 370px;
+    margin-bottom: 30px;
+}
+
+@media all and (max-width: 320px) {
+    .column {
+        width: 90%;
+        float: left;
+        min-width: 150px;
+    }
+}
+
+.san-pham {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    height: 100%;
+
+}
+.san-pham .ten {
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+
+
+.san-pham img {
+    max-width: 95%;
+
+}
+
+.san-pham .gia {
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    font-size: medium;
+}
+
+.san-pham .gia del {
+    color: gray;
+}
+
+.column>.san-pham>.new-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+
+}
+
+.san-pham>.gia {
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+
+.column>.san-pham>.icon {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.icon>img {
+    width: 20px;
+}
